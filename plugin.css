@@ -1,0 +1,29 @@
+.pi-container { font-family: inherit; padding: 4px; }
+.pi-title { font-size: 13px; font-weight: 600; margin-bottom: 12px; color: var(--text-secondary, #a98e6b); text-transform: uppercase; letter-spacing: 0.5px; }
+.pi-description { font-size: 11px; color: var(--text-tertiary, #a19591); margin-bottom: 16px; line-height: 1.4; }
+.pi-actions { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.pi-btn {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px;
+  background: var(--dark-tertiary, rgba(255,255,255,0.04));
+  border: 1px solid var(--dark-quaternary, rgba(255,255,255,0.08));
+  border-radius: 6px; cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  color: var(--text-primary, #e6d7c2);
+  font-family: inherit; text-align: left; width: 100%;
+}
+.pi-btn:hover { background: var(--dark-quaternary, rgba(255,255,255,0.08)); border-color: var(--accent-color, #c98a48); }
+.pi-btn-icon {
+  width: 32px; height: 32px; border-radius: 6px;
+  background: rgba(201,138,72,0.12);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; flex-shrink: 0; color: var(--accent-color, #c98a48);
+}
+.pi-btn-text { overflow: hidden; }
+.pi-btn-label { font-size: 13px; font-weight: 600; color: var(--text-primary, #e6d7c2); }
+.pi-btn-desc { font-size: 10px; color: var(--text-tertiary, #a19591); margin-top: 2px; }
+.pi-divider { height: 1px; background: var(--dark-quaternary, rgba(255,255,255,0.08)); margin: 12px 0; }
+.pi-summary-title { font-size: 11px; font-weight: 600; color: var(--text-secondary, #a98e6b); text-transform: uppercase; letter-spacing: 0.3px; margin-bottom: 8px; }
+.pi-stat-row { display: flex; justify-content: space-between; padding: 3px 0; font-size: 11px; }
+.pi-stat-label { color: var(--text-tertiary, #a19591); }
+.pi-stat-value { color: var(--text-primary, #e6d7c2); font-weight: 500; font-variant-numeric: tabular-nums; }
